@@ -1,0 +1,119 @@
+/*
+Author: Rohan Chaudhary
+UN id: 
+*/
+
+body {
+	margin: 0;
+	background-color: #f1f1f1;
+	padding: 50px;
+	font-family: Arial;}
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  ul.topnav li {float: left;}
+
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+  ul.topnav li a.active {background-color: #B8860B;}
+
+
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  
+  * {
+  box-sizing: border-box;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cv{
+	max-width:700px;
+	margin: 10px auto;
+	
+	
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+form select, form label, form input, form textarea {float: left; width: 200px; padding: 10px; margin-top: 20px;}
+form label {clear: left;}
+textarea {height: 100px;}
+form input[type="text"], form input[type="password"], textarea {color: #999; font-family: verdana, sans-serif}
+input[type="submit"] {clear: both; margin-left: 220px; width: 220px;}
+
+.footer {
+   position: fixed;
+   height:40px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #B8860B;
+   color: white;
+   text-align: center;
+}
